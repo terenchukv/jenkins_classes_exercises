@@ -11,7 +11,7 @@ pipeline {
 
         stage("Listing stage") {
             steps {
-                ls -l
+                sh "ls -l"
             }
         }
 
